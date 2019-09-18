@@ -25,7 +25,7 @@ class Artist
   end
   
   def self.find(name)
-    self.all.fin
+    self.all.find {
   
   def save
     @@all << self

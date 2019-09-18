@@ -25,7 +25,7 @@ class Artist
   end
   
   def self.find(name)
-    song.each {
+    self.all.fin
   
   def save
     @@all << self
